@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta http-equiv="Content-Type" content="text/html" />
+        <title>Дополнительное образование</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+      <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+       <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/css.css" rel="stylesheet" />
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav1">
+      <div class="container px-4 px-lg-5">
+          <a class="navbar-brand-1" href="index.html">CloVes</a>
+          </div>
+          </nav>
+    <div class="button-1 pos"><a class="lok" href="#id01">Ещё нет аккаунта? Зарегистрируйтесь!</a></div>>
+    <button onclick="document.getElementById('id01').style.display='block'" id="close" class="button">Зарегистрироваться</button>
+<form action="index_2.php" class="style-php" id="php"></form>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+  <form class="modal-content-1" action="/action_page.php">
+    <div class="container-3">
+      <h1>Регистрация</h1>
+      <p>Пожалуйста, заполните данную форму для создания аккаунта.</p>
+      <hr>
+      <label for="text"><b>Имя</b></label>
+      <input type="text" name="Имя" placeholder="Имя" required>
+      <label for="Фамилия"><b>Фамилия</b></label>
+      <input type="text" name="Фамилия" placeholder="Фамилия"  required>
+      <label for="Отчество"><b>Отчество</b></label>
+      <input type="text" name="Отчество" placeholder="Отчество"  required>
+      <label for="Адрес"><b>Адрес</b></label>
+      <input type="text" placeholder="Адрес" name="Адрес" required>
+      <label for="Телефон"><b>Телефон</b></label>
+      <input type="text" placeholder="Номер телефона" name="Номер телефона" required>
+      <label for="E-mail"><b>E-mail</b></label>
+      <input type="text" placeholder="E-mail" name="E-mail" required>
+      <label for="Имя"><b>Логин</b></label>
+      <input type="text" name="Логин" placeholder="Логин" required>
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Пароль" name="Пароль" required>
+
+      <label for="psw-repeat"><b>Повтор пароля</b></label>
+      <input type="password" placeholder="Повтор пароля" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked-0" name="remember" style="margin-bottom:15px"> Запомнить меня
+      </label>
+
+      <div class="clearfix">
+        <button type="submit" class="signupbt">Регистрация</button> 
+        
+        <hr>
+        <span class="psw">Уже есть учетная запись? <a href="#id02">Войти</a></span>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- The Modal -->
+<!-- Button to open the modal login form -->
+
+<button onclick="document.getElementById('id02').style.display='block'" id="close1" class="button">Вход</button>
+<form action="index_2.php" class="style-php" id="php"></form>
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">X</span>
+  <form class="modal-content-1" action="/action_page.php">
+    
+    <div class="container-3">
+      <h1>Вход</h1>
+      <p>Внесите свои данные для входа в аккаунт.</p>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Логин</label>
+            <input type="text" class="form-control" id="inputEmail4">
+            <small id="emailHelp" class="form-text text-muted">Введите адрес электронной почты, логин или номер телефона</small>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Пароль</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Запомнить меня
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Войти в систему</button>
+    </form>
+        <span class="psw">Забыли <a href="#">пароль?</a></span>
+    </div>
+      </label>
+    </div>
+  </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>		
